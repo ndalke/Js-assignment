@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Document</title>
+    </head>
+    <body>
+   
+<script>
+    total=parseInt(prompt("Enter Maximum marks..."))
+    m=parseInt(prompt("Maths"))
+    c=parseInt(prompt("Chemistry"))
+    p=parseInt(prompt("Physics"))
+    h=parseInt(prompt("Hindi"))
+    e=parseInt(prompt("English"))
+    sum=m+c+p+h+e
+    per=(sum/total*100)
+    if(per>=75){
+        document.write("Grade A")
+    }
+    else{
+        if(per>=60&&per<=75){
+            document.write("Grade B")
+        }
+        else{
+            if(per<=40&&per>=50){
+                document.write("Grade C")
+            }
+            else{
+                document.write("Fail..!")
+            }
+        }
+    }
+     </script>    
+</body>
+</html>

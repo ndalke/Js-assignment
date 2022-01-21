@@ -1,0 +1,19 @@
+<!-- WAP to check if a year is leap year or not.( An year is leap year if  (i)it is divisible by 4 but not 100 OR 
+(ii) it is divisible by 400) -->
+<html>
+    <head>
+        <title>
+            Leap year
+        </title>
+        <script>
+             year=parseInt(prompt("Enter year...."))
+            
+             if((year%4==0&&year%100!=0)||(year%400==0)){
+                 document.write("<h1>"+year+" is Leap year...</h1>")
+             }
+             else{
+                 document.write("<h1>"+year+" is not Leap year...</h1>")
+             }
+        </script>
+    </head>
+</html>

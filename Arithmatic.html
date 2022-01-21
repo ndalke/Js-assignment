@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>ArithOperation</title>
+    </head>
+        <script>
+             a=parseInt(prompt("Enter first number...."))
+             b=parseInt(prompt("Enter second number...."))
+            // document.write("1.For addition"+"\n"+ "2.For subtration"+"\n"+"3.For division"+"\n"+" 4.For modulus"+"\n"+" 5.For exit."+"\n")
+             n=parseInt(prompt("1.For addition"+"\n"+ "2.For subtration"+"\n"+"3.For division"+"\n"+"4.For modulus"+"\n"+"5.For exit."+"\n"+"Enter your choice"))
+            switch(n){
+                case 1:document.write("<h1>"+a+" + "+b+" = "+(a+b)+"</h1");
+                break;
+                case 2:document.write("<h1>"+a+" - "+b+" = "+(a-b)+"</h1");
+                break;
+                case 3:document.write("<h1>"+a+" / "+b+" = "+(a/b)+"</h1");
+                break;
+                case 4:document.write("<h1>"+a+" % "+b+" = "+(a%b)+"</h1");
+                break;
+                case 5:
+                    exit();
+                break;
+                default:document.write("Wrong choice...try Again...!")
+             }
+        </script>
+    
+</html>
