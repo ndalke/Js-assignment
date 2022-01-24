@@ -1,0 +1,24 @@
+<html>
+    <head><title>Armstrong number</title></head>
+    <body>
+        <script>
+            n=parseInt(prompt("Enter number...."))
+            q=n
+             sum=0
+            while(n!=0){
+                r=n%10
+                n=parseInt(n/10)
+                sum=parseInt(sum+(r*r*r))
+       }
+       if(q==sum){
+        document.write(q+" is a Armstrong number");
+       }
+          
+            else{
+                document.write(q+" is not a Armstrong number");
+            }
+           
+            
+        </script>
+    </body>
+</html>

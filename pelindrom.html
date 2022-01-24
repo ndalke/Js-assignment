@@ -1,0 +1,25 @@
+<html>
+    <head><title>Pelindrom</title></head>
+    <body>
+        <script>
+            n=parseInt(prompt("Enter number...."))
+            q=n
+            rev=0
+            while(n!=0){
+                r=n%10
+                rev=rev*10+r
+                n=parseInt(n/10)
+               
+               
+            }
+            if(q==rev){
+                document.write("<h1>"+q+" is pelindrom number</h1>")
+            
+            }
+            else{
+                document.write("<h1>"+q+" is not a pelindrom number</h1>")
+            }
+          
+        </script>
+    </body>
+</html>
