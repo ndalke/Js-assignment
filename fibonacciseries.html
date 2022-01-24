@@ -1,0 +1,22 @@
+<html>
+    <head><title>Fibonacci series</title></head>
+    <body>
+        <script>
+           
+           first_number=parseInt(prompt("Enter first number"))
+second_number=parseInt(prompt("ENter secound number"))
+n=parseInt(prompt("how many number do you want in fibonacci series"))
+document.write("<h1>You entered:"+first_number+" "+second_number+"</h1>")
+for(i=1;i<n;i++){
+    c=first_number+second_number;
+    document.write(c+" ")
+first_number=second_number
+second_number=c
+}
+               
+          
+          
+            
+        </script>
+    </body>
+</html>
